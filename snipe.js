@@ -1241,9 +1241,9 @@ async function showMainMenu(ctx, edit = false) {
     : `💼 *Wallet ${session.activeWalletIndex + 1}/${session.wallets.length}*\n\`${shortenAddress(wallet.publicKey)}\`\n💰 ${balance?.toFixed(4) || '?'} SOL ${solPrice ? `($${usdValue.toFixed(2)})` : ''} ${errMsg}`;
 
   const text = `
-🚀 *Welcome to solbis Trading Bot* 🤖
+🚀 *Welcome to Solbix Trading Bot* 🤖
 
-I'm your Web3 execution engine.
+The most easy your Web3 execution engine.
 AI-driven. Battle-tested. Locked down.
 ━━━━━━━━━━━━━━━━━━
 *What I do for you:* ⬇️
@@ -1256,7 +1256,7 @@ AI-driven. Battle-tested. Locked down.
 ━━━━━━━━━━━━━━━━━━
 ${walletLine}
 
-🏦 *CASH & STABLE COIN BANK*
+🏦 *Solbix your fast sniper bot*
 Paste any Solana contract address to analyze
   `;
 
