@@ -1241,12 +1241,11 @@ async function showMainMenu(ctx, edit = false) {
     : `💼 *Wallet ${session.activeWalletIndex + 1}/${session.wallets.length}*\n\`${shortenAddress(wallet.publicKey)}\`\n💰 ${balance?.toFixed(4) || '?'} SOL ${solPrice ? `($${usdValue.toFixed(2)})` : ''} ${errMsg}`;
 
   const text = `
-🚀 *Welcome to BullpenFee Bot* 🤖
+🚀 *Welcome to Bullpen Bot* 🤖
 
-The most easy your Web3 execution engine.
-AI-driven. Battle-tested. Locked down.
+Bullpen is the easiest way to jump into crypto, find meme coins, and trade on-chain..
 ━━━━━━━━━━━━━━━━━━
-*What I do for you:* ⬇️
+What I do for you:* ⬇️
 📊 Scan the market to tell you what to buy, ignore, or stalk
 🎯 Execute entries & exits with sniper-level timing
 🧠 Detect traps, fake pumps, and incoming dumps before they hit
@@ -1256,7 +1255,7 @@ AI-driven. Battle-tested. Locked down.
 ━━━━━━━━━━━━━━━━━━
 ${walletLine}
 
-🏦 *Trojan your fast sniper bot*
+🏦 *Bullpen your fast sniper bot*
 Paste any Solana contract address to analyze
   `;
 
